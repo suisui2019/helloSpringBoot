@@ -54,6 +54,13 @@
             <optional>true</optional> <!-- IntelliJ IDEA本地测试这个true、false热部署都有效 -->
         </dependency>
 
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.10</version>
+        </dependency>
+
 	</dependencies>
 
 	<build>
