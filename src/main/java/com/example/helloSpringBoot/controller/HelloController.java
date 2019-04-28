@@ -37,4 +37,15 @@ public class HelloController {
     public String testNeedLogin (){
         return "testNeedLogin！";
     }
+
+    /**
+     * mockTest
+     *
+     * @Date: 2019/4/28
+     *
+     */
+    @RequestMapping("/mockTest")
+    public String mockTest (){
+        return "mockTest-Java碎碎念！";
+    }
 }
